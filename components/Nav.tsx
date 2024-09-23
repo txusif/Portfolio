@@ -1,23 +1,13 @@
 import Link from "next/link";
 import ModeToggle from "./Toggle";
-import {
-  Sheet,
-  SheetClose,
-  SheetContent,
-  SheetDescription,
-  SheetFooter,
-  SheetHeader,
-  SheetTitle,
-  SheetTrigger,
-} from "./ui/sheet";
-import { Button } from "./ui/button";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Menu } from "lucide-react";
 import Logo from "./Logo";
 
 export const navLinks = [
-  { label: "home", href: "#home" },
   { label: "about", href: "#about" },
-  { label: "project", href: "#project" },
+  { label: "skills", href: "#skills" },
+  { label: "projects", href: "#projects" },
   { label: "contact", href: "#contact" },
 ];
 
@@ -29,7 +19,7 @@ const Nav = () => {
           <Link
             key={link.href}
             href={link.href}
-            className="capitalize text-xl font-medium hover:text-gray-400 hover:underline hover:underline-offset-4 transition-all duration-300"
+            className="capitalize text-xl font-medium hover:text-gray-400 hover:underline hover:underline-offset-4 transition-all duration-300 outline-none focus:text-gray-400 focus:underline focus:underline-offset-4"
           >
             {link.label}
           </Link>
@@ -51,11 +41,11 @@ const Nav = () => {
 
             <nav className="flex flex-col items-center gap-6">
               {navLinks.map((link) => (
-                <SheetClose asChild>
+                <SheetClose key={link.label} asChild>
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="capitalize text-xl font-medium hover:text-gray-400 hover:underline hover:underline-offset-4 transition-all duration-300"
+                    className="capitalize text-xl font-medium hover:text-gray-400 hover:underline hover:underline-offset-4 transition-all duration-300 outline-none focus:text-gray-400 focus:underline focus:underline-offset-4"
                   >
                     {link.label}
                   </Link>

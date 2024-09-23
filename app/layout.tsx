@@ -6,6 +6,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import Header from "@/components/Header";
 import Container from "@/components/Container";
+import { Toaster } from "@/components/ui/sonner";
 
 const poppins = Poppins({
   display: "swap",
@@ -29,6 +30,7 @@ export default function RootLayout({
         <ThemeProvider attribute="class" defaultTheme="light">
           <Header />
           <Container>{children}</Container>
+          <Toaster />
         </ThemeProvider>
       </body>
     </html>

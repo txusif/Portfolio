@@ -17,7 +17,7 @@ const ModeToggle = () => {
     <Button
       variant={"ghost"}
       size={"icon"}
-      className="rounded-full"
+      className="rounded-full focus-visible:ring-0 focus-visible:bg-secondary"
       onClick={handleToggle}
     >
       {theme === "light" ? <Sun /> : <Moon />}
