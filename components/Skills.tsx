@@ -1,7 +1,5 @@
 import Image from "next/image";
 
-import { SiExpress } from "react-icons/si";
-
 import {
   Tooltip,
   TooltipContent,
