@@ -20,13 +20,13 @@ const Socials = () => {
         {socials.map((social, index) => (
           <li
             key={index}
-            className="hover:bg-secondary hover:text-green-400 rounded-full p-3 transition-all duration-300"
+            className="hover:bg-secondary hover:text-green-400 focus:bg-secondary rounded-full p-3 transition-all duration-300"
           >
             <Link
               href={social.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-2xl md:text-3xl"
+              className="text-2xl outline-none focus-visible:text-green-400"
             >
               {social.icon}
             </Link>

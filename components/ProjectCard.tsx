@@ -11,7 +11,6 @@ import {
   CardTitle,
 } from "./ui/card";
 
-import cake from "../public/cakecrave/landing.png";
 import Link from "next/link";
 import { cn } from "@/lib/utils";
 import { Badge } from "./ui/badge";
@@ -21,7 +20,7 @@ const projects = [
     title: "SportSpace",
     description:
       "A user-friendly platform for booking football and cricket turfs. Features an intuitive calendar interface for easy time slot reservations.",
-    images: ["/"],
+    image: "/sport-space.png",
     github: "https://github.com/txusif/SportSpace",
     live: "https://sportspace.txusif.me",
     technologies: [
@@ -37,7 +36,7 @@ const projects = [
     title: "Cake Crave",
     description:
       "A React-based website for ordering cakes, including vegan and eggless options. Showcases products through an engaging image carousel.",
-    images: ["/"],
+    image: "/cake-crave.png",
     github: "https://github.com/txusif/cakecrave",
     live: "https://cakecrave.txusif.me",
     technologies: [
@@ -54,7 +53,7 @@ const projects = [
     title: "The Wild Oasis",
     description:
       "Admin dashboard for hotel bookings with dynamic charts using Recharts. Features React Query for state management and streamlined check-in/out processes.",
-    images: ["/"],
+    image: "/the-wild-oasis.png",
     github: "https://github.com/txusif/the-wild-oasis",
     live: "https://the-wild-oasis.txusif.me",
     technologies: [
@@ -71,7 +70,7 @@ const projects = [
     title: "The Wild Oasis Client App",
     description:
       "Next.js app for booking hotel cabins. Allows guests to select dates and guest numbers for a seamless reservation experience.",
-    images: ["/"],
+    image: "/the-wild-oasis-client.png",
     github: "https://github.com/txusif/the-wild-oasis-next",
     live: "https://the-wild-oasis-next.txusif.me",
     technologies: [
@@ -82,21 +81,11 @@ const projects = [
       "Next Auth",
     ],
   },
-
-  {
-    title: "Fast React Pizza Co.",
-    description:
-      "React app with Redux for browsing and ordering pizzas. Offers a diverse menu with a simple, user-friendly interface.",
-    images: ["/"],
-    github: "https://github.com/txusif/Pizza-Pizza",
-    live: "https://react-pizza-txusif.netlify.app/",
-    technologies: ["React", "Javascript", "Tailwind CSS", "Redux"],
-  },
   {
     title: "MediChain",
     description:
       "A blockchain-based platform for secure medical record storage and charitable healthcare campaigns. Users can store health documents securely and donate to support patients in need.",
-    images: ["/"],
+    image: "/medichain.png",
     github: "https://github.com/txusif/MediChain",
     live: "https://medichain.txusif.me",
     technologies: [
@@ -119,11 +108,12 @@ const ProjectCard = () => {
     <div className="space-y-10">
       {projects.map((project, index) => (
         <Card key={index} className="grid md:grid-cols-2">
-          <div className="">
+          <div className="relative aspect-video">
             <Image
-              src={cake}
+              src={project.image}
               alt={`${project.title} image`}
-              className="max-md:rounded-t-xl md:rounded-l-xl"
+              className="max-md:rounded-t-xl md:rounded-l-xl object-contain"
+              fill
             />
           </div>
           <div>

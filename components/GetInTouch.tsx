@@ -30,7 +30,7 @@ const GetInTouch = () => {
             <a
               href={item.link}
               target="_blank"
-              className="text-2xl flex items-center gap-x-5"
+              className="text-2xl flex items-center gap-x-5 outline-none focus-visible:text-gray-400"
             >
               {item.icon}
               <span className="text-xl">{item.text}</span>

@@ -11,11 +11,11 @@ import { Toaster } from "@/components/ui/sonner";
 const poppins = Poppins({
   display: "swap",
   subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
 });
 
 export const metadata: Metadata = {
-  title: "Toushief Portfolio",
+  title: "TOUSHIEF ANSARI",
   description: "Portfolio of Toushief",
 };
 
@@ -27,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn("antialiased", poppins.className)}>
-        <ThemeProvider attribute="class" defaultTheme="light">
+        <ThemeProvider attribute="class" defaultTheme="dark">
           <Header />
           <Container>{children}</Container>
           <Toaster />
