@@ -105,7 +105,7 @@ const projects = [
 
 const ProjectCard = () => {
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       {projects.map((project, index) => (
         <Card key={index} className="grid md:grid-cols-2">
           <div className="relative aspect-video">
@@ -156,7 +156,7 @@ const ProjectCard = () => {
                   "gap-x-2"
                 )}
               >
-                <FaGlobe /> <span>Live preview</span>
+                <FaGlobe /> <span>Live demo</span>
               </Link>
             </CardFooter>
           </div>

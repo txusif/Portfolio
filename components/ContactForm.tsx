@@ -40,7 +40,10 @@ const ContactForm = () => {
 
   return (
     <Form {...form}>
-      <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-4">
+      <form
+        onSubmit={form.handleSubmit(onSubmit)}
+        className="space-y-4 flex flex-col items-center "
+      >
         <FormField
           control={form.control}
           name="fullName"
@@ -82,7 +85,11 @@ const ContactForm = () => {
             </FormItem>
           )}
         />
-        <Button type="submit">Submit</Button>
+        <div className="w-80 lg:w-96">
+          <Button type="submit" className="w-max">
+            Submit
+          </Button>
+        </div>
       </form>
     </Form>
   );

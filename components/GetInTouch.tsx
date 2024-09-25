@@ -21,19 +21,19 @@ const GetInTouch = () => {
     <div className="space-y-4 flex flex-col items-center">
       <h1 className="font-medium text-4xl">Get in touch</h1>
       <ul className="flex flex-col gap-y-6">
-        <li className="text-2xl flex items-center gap-x-5">
+        <li className="text-xl flex items-center gap-x-3">
           <FaLocationDot />
-          <span className="text-xl">Mumbai, India</span>
+          <span className="text-lg">Mumbai, India</span>
         </li>
         {reachOut.map((item, index) => (
           <li key={index}>
             <a
               href={item.link}
               target="_blank"
-              className="text-2xl flex items-center gap-x-5 outline-none focus-visible:text-gray-400"
+              className="text-xl flex items-center gap-x-3 outline-none focus-visible:text-muted-foreground"
             >
               {item.icon}
-              <span className="text-xl">{item.text}</span>
+              <span className="text-lg">{item.text}</span>
             </a>
           </li>
         ))}

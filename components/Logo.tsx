@@ -14,7 +14,10 @@ const Logo = () => {
   const src = theme === "light" ? lightLogo : darkLogo;
 
   return (
-    <Link href={"/"} className="outline-none focus-visible:text-gray-400">
+    <Link
+      href={"/"}
+      className="outline-none focus-visible:text-muted-foreground"
+    >
       {/* <h1 className="font-semibold text-4xl">
         txusif<span className="text-green-400">.</span>me
       </h1> */}

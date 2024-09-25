@@ -14,13 +14,13 @@ const socials = [
 
 const Socials = () => {
   return (
-    <section id="socials" className="space-y-3">
+    <section id="socials" className="space-y-5">
       <h1 className="text-center text-4xl font-medium">Socials</h1>
       <ul className="flex items-center justify-center gap-x-4">
         {socials.map((social, index) => (
           <li
             key={index}
-            className="hover:bg-secondary hover:text-green-400 focus:bg-secondary rounded-full p-3 transition-all duration-300"
+            className="hover:bg-secondary hover:text-green-400 hover:scale-110 focus:bg-secondary rounded-full p-3 transition-all duration-300"
           >
             <Link
               href={social.link}

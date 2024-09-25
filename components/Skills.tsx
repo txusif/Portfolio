@@ -12,7 +12,6 @@ import css from "@/public/skills/css.svg";
 import javascript from "@/public/skills/javascript.svg";
 import typescript from "@/public/skills/typescript.svg";
 import nodejs from "@/public/skills/nodejs.svg";
-import expressjs from "@/public/skills/expressjs.svg";
 import react from "@/public/skills/react.svg";
 import nextjs from "@/public/skills/nextjs.svg";
 import redux from "@/public/skills/redux.svg";
@@ -21,6 +20,9 @@ import figma from "@/public/skills/figma.svg";
 import github from "@/public/skills/github.svg";
 import postman from "@/public/skills/postman.svg";
 import mongodb from "@/public/skills/mongodb.svg";
+import expressjs from "@/public/skills/express-js.svg";
+import { SiShadcnui } from "react-icons/si";
+// import expressDark from "@/public/skills/express-dark.svg";
 
 const skills = [
   { name: "HTML", image: html5, icon: "" },
@@ -34,7 +36,7 @@ const skills = [
   { name: "React Query", image: react, icon: "" },
   { name: "Redux", image: redux, icon: "" },
   { name: "Tailwind CSS", image: tailwindcss, icon: "" },
-  { name: "Shadcn UI", image: react, icon: "" },
+  { name: "Shadcn UI", image: "", icon: <SiShadcnui /> },
   { name: "Figma", image: figma, icon: "" },
   { name: "MongoDB", image: mongodb, icon: "" },
   // { name: "Supabase", image: <SiSupabase /> ,icon:""},
@@ -46,7 +48,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="px-6 lg:px-0 space-y-4">
+    <section id="skills" className="px-8 lg:px-0 space-y-8">
       <h1 className="text-center text-4xl font-medium">Skills</h1>
       <ul className="grid grid-cols-8 gap-y-8">
         {skills.map((skill, index) => (

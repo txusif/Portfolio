@@ -7,18 +7,20 @@ import {
 
 const Work = () => {
   return (
-    <section id="work" className="px-8 space-y-4">
+    <section id="work" className="px-8 space-y-8">
       <h1 className="text-center text-4xl font-medium">Work Experience</h1>
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1">
-          <AccordionTrigger>
+          <AccordionTrigger className="outline-none focus:shadow-md focus:shadow-secondary p-4 rounded-t-xl">
             <div className="flex justify-between items-center w-full">
               <div
                 className="flex flex-col gap-2
               "
               >
-                <h1 className="text-xl">Full Stack Developer Intern</h1>
-                <p className="text-left text-base">DataSpeaks</p>
+                <h1 className="text-lg">Full Stack Developer Intern</h1>
+                <p className="text-left text-base text-muted-foreground">
+                  DataSpeaks
+                </p>
               </div>
               <div className="hidden md:flex md:flex-col lg:flex-row items-center gap-2 lg:gap-16 mr-10">
                 <p>Dec 2023 &mdash; Aug 2024</p>
@@ -28,7 +30,7 @@ const Work = () => {
           </AccordionTrigger>
           <AccordionContent>
             <ul className="space-y-3 text-base list-disc border-t pt-4">
-              <li className="text-gray-400 flex md:hidden gap-8">
+              <li className="text-muted-foreground text-sm flex md:hidden gap-8">
                 <span>Dec 2023 &mdash; Aug 2024</span>
                 <span>Remote | Gujarat</span>
               </li>

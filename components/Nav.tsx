@@ -19,7 +19,7 @@ const Nav = () => {
           <Link
             key={link.href}
             href={link.href}
-            className="capitalize text-xl font-medium hover:text-gray-400 hover:underline hover:underline-offset-4 transition-all duration-300 outline-none focus:text-gray-400 focus:underline focus:underline-offset-4"
+            className="capitalize text-xl font-medium hover:text-muted-foreground hover:underline hover:underline-offset-4 transition-all duration-300 outline-none focus:text-muted-foreground focus:underline focus:underline-offset-4"
           >
             {link.label}
           </Link>
@@ -45,7 +45,7 @@ const Nav = () => {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className="capitalize text-xl font-medium hover:text-gray-400 hover:underline hover:underline-offset-4 transition-all duration-300 outline-none focus:text-gray-400 focus:underline focus:underline-offset-4"
+                    className="capitalize text-xl font-medium hover:text-muted-foreground hover:underline hover:underline-offset-4 transition-all duration-300 outline-none focus:text-muted-foreground focus:underline focus:underline-offset-4"
                   >
                     {link.label}
                   </Link>

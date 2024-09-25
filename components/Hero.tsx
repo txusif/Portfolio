@@ -10,15 +10,16 @@ const Hero = () => {
       md:gap-0"
     >
       <div className="flex flex-col order-2 md:order-none">
-        <div className="flex flex-col items-start">
-          <h1 className="font-semibold text-4xl text-center">
-            Toushief Ansari
-          </h1>
-          <p>Software developer from Mumbai, India</p>
+        <div className="flex flex-col items-center md:items-start ">
+          <h1 className="font-semibold text-4xl text-left">Toushief Ansari</h1>
+          <p>Full Stack Developer from Mumbai, India</p>
+          <p className="mt-4 text-lg italic text-center md:text-left">
+            Transforming Ideas into Engaging Digital Solutions
+          </p>
         </div>
         <div className="mt-6 text-center md:text-left">
           <Link
-            href="https://drive.google.com/file/d/1TAcm5ERE7E7eSw6daEL-j1LEZ7AQwP01/view?usp=sharing"
+            href=""
             target="_blank"
             className={buttonVariants({ variant: "default" })}
           >
