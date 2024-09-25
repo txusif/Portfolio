@@ -33,6 +33,8 @@ const Hero = () => {
           alt="txusif"
           fill
           className="object-contain rounded-full opacity-90"
+          quality={100}
+          placeholder="blur"
         />
       </div>
     </section>
