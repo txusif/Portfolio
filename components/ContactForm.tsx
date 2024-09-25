@@ -8,6 +8,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
+import emailjs from "@emailjs/browser";
 import {
   Form,
   FormControl,
@@ -34,8 +35,28 @@ const ContactForm = () => {
   });
 
   function onSubmit(values: z.infer<typeof formSchema>) {
-    console.log(values);
-    toast("Your message has been sent.");
+    const templateParams = {
+      from_name: values.fullName,
+      from_email: values.email,
+      message: values.message,
+    };
+
+    emailjs
+      .send(
+        process.env.NEXT_PUBLIC_SERVICE_ID ?? "",
+        process.env.NEXT_PUBLIC_TEMPLATE_ID ?? "",
+        templateParams,
+        { publicKey: process.env.NEXT_PUBLIC_PUBLIC_KEY ?? "" }
+      )
+      .then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          toast("Your message has been sent.");
+        },
+        (error) => {
+          console.log("FAILED...", error);
+        }
+      );
   }
 
   return (

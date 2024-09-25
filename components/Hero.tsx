@@ -34,7 +34,7 @@ const Hero = () => {
           fill
           className="object-contain rounded-full opacity-90"
           quality={100}
-          placeholder="blur"
+          priority
         />
       </div>
     </section>

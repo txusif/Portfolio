@@ -21,7 +21,8 @@ import github from "@/public/skills/github.svg";
 import postman from "@/public/skills/postman.svg";
 import mongodb from "@/public/skills/mongodb.svg";
 import expressjs from "@/public/skills/express-js.svg";
-import { SiShadcnui } from "react-icons/si";
+import shadcnui from "@/public/skills/shadcn-ui.svg";
+// import { SiShadcnui } from "react-icons/si";
 // import expressDark from "@/public/skills/express-dark.svg";
 
 const skills = [
@@ -36,7 +37,7 @@ const skills = [
   { name: "React Query", image: react, icon: "" },
   { name: "Redux", image: redux, icon: "" },
   { name: "Tailwind CSS", image: tailwindcss, icon: "" },
-  { name: "Shadcn UI", image: "", icon: <SiShadcnui /> },
+  { name: "Shadcn UI", image: shadcnui, icon: "<SiShadcnui />" },
   { name: "Figma", image: figma, icon: "" },
   { name: "MongoDB", image: mongodb, icon: "" },
   // { name: "Supabase", image: <SiSupabase /> ,icon:""},
