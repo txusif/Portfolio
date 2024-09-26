@@ -14,9 +14,9 @@ const About = () => {
         <Card className="order-2 md:order-none">
           <CardHeader className="pb-0">
             <CardTitle className="text-lg">
-              Bachelors of Computer Science
+              Bachelor's of Science, Computer Science
             </CardTitle>
-            <CardDescription>Grade: 8.94</CardDescription>
+            <CardDescription>CGPA: 8.94</CardDescription>
           </CardHeader>
           <CardContent className="flex p-6 flex-col">
             <div>

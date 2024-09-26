@@ -2,6 +2,9 @@ import Image from "next/image";
 import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 
+const resumeLink =
+  "https://drive.google.com/file/d/115oSnQ1W4xtnap0M7_z660DXGLG1Demy/view?usp=sharing";
+
 const Hero = () => {
   return (
     <section
@@ -19,7 +22,7 @@ const Hero = () => {
         </div>
         <div className="mt-6 text-center md:text-left">
           <Link
-            href=""
+            href={resumeLink}
             target="_blank"
             className={buttonVariants({ variant: "default" })}
           >
