@@ -81,26 +81,26 @@ const projects = [
       "Next Auth",
     ],
   },
-  {
-    title: "MediChain",
-    description:
-      "A blockchain-based platform for secure medical record storage and charitable healthcare campaigns. Users can store health documents securely and donate to support patients in need.",
-    image: "/medichain.png",
-    github: "https://github.com/txusif/MediChain",
-    live: "https://medichain.txusif.me",
-    technologies: [
-      "React",
-      "Javascript",
-      "Tawilwind CSS",
-      "Solidity",
-      "Ethersjs",
-      "IPFS",
-      "Smart Contract",
-      "Metamask",
-      "Third Web",
-      "Polygon",
-    ],
-  },
+  // {
+  //   title: "MediChain",
+  //   description:
+  //     "A blockchain-based platform for secure medical record storage and charitable healthcare campaigns. Users can store health documents securely and donate to support patients in need.",
+  //   image: "/medichain.png",
+  //   github: "https://github.com/txusif/MediChain",
+  //   live: "https://medichain.txusif.me",
+  //   technologies: [
+  //     "React",
+  //     "Javascript",
+  //     "Tawilwind CSS",
+  //     "Solidity",
+  //     "Ethersjs",
+  //     "IPFS",
+  //     "Smart Contract",
+  //     "Metamask",
+  //     "Third Web",
+  //     "Polygon",
+  //   ],
+  // },
 ];
 
 const ProjectCard = () => {
