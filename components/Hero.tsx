@@ -34,7 +34,7 @@ const Hero = () => {
             </div>
             <div className="order-1 md:order-none relative aspect-square h-[250px] md:h-[300px] lg:h-[350px] shadow-lg shadow-secondary rounded-full">
                 <Image
-                    src={"/me.jpg"}
+                    src={"/txusif_portfolio_1.jpg"}
                     alt="txusif"
                     fill
                     className="object-contain rounded-full opacity-90"
