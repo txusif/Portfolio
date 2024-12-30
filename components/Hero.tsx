@@ -3,7 +3,7 @@ import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 
 const resumeLink =
-    "https://drive.google.com/file/d/1mxCKM6JNGgxS9LeGvm-YMSFyuDY1j6jx/view?usp=sharing";
+    "https://drive.google.com/file/d/1ENd6hkh2Ve6U__a5FFYVMSLgg4OEfHid/view?usp=sharing";
 
 const Hero = () => {
     return (
@@ -17,9 +17,9 @@ const Hero = () => {
                     <h1 className="font-semibold text-4xl text-left">
                         Toushief Ansari
                     </h1>
-                    <p>Full Stack Developer from Mumbai, India</p>
+                    <p className="text-center md:text-left">Full Stack & Blockchain Developer from Mumbai, India</p>
                     <p className="mt-4 text-lg italic text-center md:text-left">
-                        Transforming Ideas into Engaging Digital Solutions
+                    Building Web3 and Web Solutions That Inspire and Innovate
                     </p>
                 </div>
                 <div className="mt-6 text-center md:text-left">
