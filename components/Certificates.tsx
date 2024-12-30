@@ -4,11 +4,11 @@ import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 
 const certificates = [
   {
-    name: "The Complete 2023 Web Development Bootcamp",
-    issuing_organization: "Udemy",
-    issued: "May 2023",
-    id: "UC-f175f078-b117-471d-b7d6-6792febde410",
-    link: "https://www.udemy.com/certificate/UC-f175f078-b117-471d-b7d6-6792febde410/",
+    name: "Full-Stack Blockchain Development Training",
+    issuing_organization: "Code Eater",
+    issued: "April 2023",
+    id: "",
+    link: "https://www.codeeater.in/share-certificate?serialno=270UF1W1",
   },
   {
     name: "The Ultimate React Course 2024: React, Next.js, Redux & More",
