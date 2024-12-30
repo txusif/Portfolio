@@ -3,7 +3,7 @@ import { buttonVariants } from "./ui/button";
 import Link from "next/link";
 
 const resumeLink =
-    "https://drive.google.com/file/d/1s1fe5Rj1yIrQlPA4lNq3TRXAzUb0J6cZ/view?usp=sharing";
+    "https://drive.google.com/file/d/1mxCKM6JNGgxS9LeGvm-YMSFyuDY1j6jx/view?usp=sharing";
 
 const Hero = () => {
     return (
