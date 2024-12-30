@@ -27,14 +27,11 @@ const About = () => {
         </Card>
         <div className="space-y-3 order-1 md:order-none">
           <p>
-            I&apos;m Toushief Ansari, a Full Stack Developer based in Mumbai,
+            I&apos;m Toushief Ansari, a Full Stack Developer and self-taught Blockchain Developer based in Mumbai,
             India.
           </p>
           <p>
-            I specialize in creating dynamic, user-friendly web applications,
-            with expertise in both front-end and back-end technologies. I&apos;m
-            passionate about staying on top of emerging trends and delivering
-            innovative, efficient solutions.
+          I specialize in creating dynamic, user-friendly web applications, with expertise in front-end and back-end technologies. My hands-on experience with blockchain development and certifications reflect my passion for Web3 and decentralized solutions.
           </p>
           <p>
             Beyond coding, I enjoy discovering new music, reading, and staying
