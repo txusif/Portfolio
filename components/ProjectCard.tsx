@@ -17,6 +17,26 @@ import { Badge } from "./ui/badge";
 
 const projects = [
   {
+    title: "MediChain",
+    description:
+      "A blockchain-based platform for secure medical record storage and charitable healthcare campaigns. Users can store health documents securely and donate to support patients in need.",
+    image: "/medichain.png",
+    github: "https://github.com/txusif/MediChain",
+    live: "https://medichain.txusif.me",
+    technologies: [
+      "React",
+      "Javascript",
+      "Tawilwind CSS",
+      "Solidity",
+      "Ethersjs",
+      "IPFS",
+      "Smart Contract",
+      "Metamask",
+      "Third Web",
+      "Polygon",
+    ],
+  },
+  {
     title: "SportSpace",
     description:
       "A user-friendly platform for booking football and cricket turfs. Features an intuitive calendar interface for easy time slot reservations.",
@@ -49,38 +69,38 @@ const projects = [
       "Supabase Auth",
     ],
   },
-  {
-    title: "The Wild Oasis",
-    description:
-      "Admin dashboard for hotel bookings with dynamic charts using Recharts. Features React Query for state management and streamlined check-in/out processes.",
-    image: "/the-wild-oasis.png",
-    github: "https://github.com/txusif/the-wild-oasis",
-    live: "https://the-wild-oasis.txusif.me",
-    technologies: [
-      "React",
-      "Javascript",
-      "Styled Components",
-      "React Query",
-      "Recharts",
-      "Supabase",
-      "Supabase Auth",
-    ],
-  },
-  {
-    title: "The Wild Oasis Client App",
-    description:
-      "Next.js app for booking hotel cabins. Allows guests to select dates and guest numbers for a seamless reservation experience.",
-    image: "/the-wild-oasis-client.png",
-    github: "https://github.com/txusif/the-wild-oasis-next",
-    live: "https://the-wild-oasis-next.txusif.me",
-    technologies: [
-      "Nextjs",
-      "Javascript",
-      "Tailwind CSS",
-      "Supabase",
-      "Next Auth",
-    ],
-  },
+  // {
+  //   title: "The Wild Oasis",
+  //   description:
+  //     "Admin dashboard for hotel bookings with dynamic charts using Recharts. Features React Query for state management and streamlined check-in/out processes.",
+  //   image: "/the-wild-oasis.png",
+  //   github: "https://github.com/txusif/the-wild-oasis",
+  //   live: "https://the-wild-oasis.txusif.me",
+  //   technologies: [
+  //     "React",
+  //     "Javascript",
+  //     "Styled Components",
+  //     "React Query",
+  //     "Recharts",
+  //     "Supabase",
+  //     "Supabase Auth",
+  //   ],
+  // },
+  // {
+  //   title: "The Wild Oasis Client App",
+  //   description:
+  //     "Next.js app for booking hotel cabins. Allows guests to select dates and guest numbers for a seamless reservation experience.",
+  //   image: "/the-wild-oasis-client.png",
+  //   github: "https://github.com/txusif/the-wild-oasis-next",
+  //   live: "https://the-wild-oasis-next.txusif.me",
+  //   technologies: [
+  //     "Nextjs",
+  //     "Javascript",
+  //     "Tailwind CSS",
+  //     "Supabase",
+  //     "Next Auth",
+  //   ],
+  // },
   // {
   //   title: "MediChain",
   //   description:
