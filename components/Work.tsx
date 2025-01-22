@@ -17,6 +17,41 @@ const Work = () => {
                 className="flex flex-col gap-2
               "
               >
+                <h1 className="text-lg">Front-End Engineer</h1>
+                <p className="text-left text-base text-muted-foreground">
+                  DreamBridge
+                </p>
+              </div>
+              <div className="hidden md:flex md:flex-col lg:flex-row items-center gap-2 lg:gap-16 mr-10">
+                <p>Jan 2025 &mdash; Present</p>
+                <p>Remote | Bangalore</p>
+              </div>
+            </div>
+          </AccordionTrigger>
+          <AccordionContent>
+            <ul className="space-y-3 text-base list-disc border-t pt-4">
+              <li className="text-muted-foreground text-sm flex md:hidden gap-8">
+                <span>Jan 2025 &mdash; Present</span>
+                <span>Remote | Bangalore</span>
+              </li>
+              <li>
+                Working on new features like the AI Playground and student flow
+                to enhance user engagement.
+              </li>
+              <li>
+                Improving platform functionality to help educators connect with
+                students and grow their network.
+              </li>
+            </ul>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="item-2">
+          <AccordionTrigger className="outline-none focus:shadow-md focus:shadow-secondary p-4 rounded-t-xl">
+            <div className="flex justify-between items-center w-full">
+              <div
+                className="flex flex-col gap-2
+              "
+              >
                 <h1 className="text-lg">Full Stack Developer Intern</h1>
                 <p className="text-left text-base text-muted-foreground">
                   DataSpeaks

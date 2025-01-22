@@ -1,6 +1,10 @@
 import Link from "next/link";
 import { FaXTwitter } from "react-icons/fa6";
-import { SiLinkedin, SiGithub, SiInstagram } from "react-icons/si";
+import {
+  SiLinkedin,
+  SiGithub,
+  // SiInstagram
+} from "react-icons/si";
 
 const socials = [
   {
@@ -8,7 +12,7 @@ const socials = [
     link: "https://linkedin.com/in/txusif",
   },
   { icon: <SiGithub />, link: "https://github.com/txusif" },
-  { icon: <SiInstagram />, link: "https://instagram.com/txusif" },
+  // { icon: <SiInstagram />, link: "https://instagram.com/txusif" },
   { icon: <FaXTwitter />, link: "https://twitter.com/txusif" },
 ];
 
