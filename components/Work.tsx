@@ -35,8 +35,8 @@ const Work = () => {
                 <span>Remote | Bangalore</span>
               </li>
               <li>
-                Working on new features like the AI Playground and student flow
-                to enhance user engagement.
+                Working on new features like the AI Playground and Messaging to
+                enhance user engagement.
               </li>
               <li>
                 Improving platform functionality to help educators connect with
